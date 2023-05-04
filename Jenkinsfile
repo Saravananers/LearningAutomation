@@ -27,6 +27,10 @@ pipeline {
                 echo 'GitHubRepo'
             }
         }
-        
+        stage('Multiline') {
+            steps {
+                echo 'Pipeline'
+            }
+        }
     }
 }
