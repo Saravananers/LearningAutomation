@@ -22,6 +22,11 @@ pipeline {
                 echo 'App'
             }
         }
+		stage('GitHub') {
+            steps {
+                echo 'GitHubRepo'
+            }
+        }
         
     }
 }
