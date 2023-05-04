@@ -22,9 +22,9 @@ pipeline {
                 echo 'App'
             }
         }
-		stage('GitHub') {
+		stage('Multiline') {
             steps {
-                echo 'GitHubRepo'
+                echo 'Jenkinfile'
             }
         }
         
